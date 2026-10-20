@@ -49,7 +49,7 @@ SQL techniques used: CTEs, `GROUP BY` aggregation, `LEFT JOIN`, `CROSS JOIN`, wi
 | **H1 not supported.** Senior pay did not grow faster than Entry or Mid. | 2020→2026 growth: Entry +0.14%, Mid −0.12%, Senior −0.09% |
 | **H2 not supported.** Hybrid, not Remote, has the (negligible) premium. | Premium vs Onsite: Hybrid +$662 (+0.60%), Remote +$404 (+0.37%) |
 | **H3 not supported.** Engineering and Analytics pay are virtually identical at each level. | Max gap ≈ $105 at any level |
-| **Market segments (K-Means, K=3).** | Senior "Elites" (~$157k avg), Entry engineers (~$87k), Mid remote analysts (~$88k) |
+| **Market segments (K-Means, K=3).** | Senior "Elites" (≈ $157k avg), Entry engineers (≈ $87k), Mid remote analysts (≈ $88k) |
 
 ## Data quality notes
 
@@ -60,7 +60,7 @@ SQL techniques used: CTEs, `GROUP BY` aggregation, `LEFT JOIN`, `CROSS JOIN`, wi
 
 ```
 ├── notebook/
-│   └── FEB26_FSDA_BimasTiar_Putra_Milovsky_DEEPP.ipynb
+│   └── [FEB26]FSDA_BimasTiar_Putra_Milovsky_DEEPP.ipynb
 ├── sql/
 │   └── ai_job_market_analysis.sql
 ├── screenshots/

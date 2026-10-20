@@ -14,10 +14,11 @@
 --      IMPORTANT: Advanced options > Field delimiter > Custom > ";"
 --      Schema: tick "Auto detect". Header rows to skip: 1
 --      (auto-detect cannot read headers of all-text files; see Q0)
---   4. Replace `ascendant-yeti-491713-d1` below with your own project ID.
+--   4. Run Q0 once to fix column names, then Q1-Q7.
+--      To reuse, replace ascendant-yeti-491713-d1 with your own project ID.
 --
 -- SANITY CHECK: results should match the Python notebook
---   (50,000 jobs, 224,605 skill rows, top skills AWS / GCP / TensorFlow,
+--   (50,000 jobs, 224,605 skill rows, top skills AWS / TensorFlow / GCP,
 --    avg salary range $57,608 - $167,468).
 -- =====================================================================
 
